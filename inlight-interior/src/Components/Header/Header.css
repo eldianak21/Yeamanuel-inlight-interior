@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f8f1e5;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4b3d3d;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    cursor: pointer; /* Pointer cursor */
+    color: #4b3d3d; /* Text color */
+    font-weight: 500;
+    transition: color 0.3s, border 0.3s, box-shadow 0.3s; /* Smooth transition for color, border, and shadow */
+    padding: 5px 10px; /* Add some padding for better effect */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.navbar li:hover {
+    color: #6c5d5d; /* Change color on hover */
+    border: 1px solid #d19a6a; /* Light brown border */
+    box-shadow: 0 4px 8px rgba(210, 154, 106, 0.5); /* Light brown shadow */
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.signup-button {
+    background-color: #4b3d3d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: background 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #6c5d5d;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* Adjust width as needed */
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px; /* Adjust position */
+    cursor: pointer;
+    color: #4b3d3d; /* Icon color */
+}
+.navbar a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use inherited text color */
+}
+
+.navbar li:hover {
+    color: #6c5d5d; /* Change color on hover */
+    border: 1px solid #d19a6a; /* Light brown border */
+    box-shadow: 0 4px 8px rgba(210, 154, 106, 0.5); /* Light brown shadow */
+}
+.dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it appears above other elements */
+    margin-top: 5px; /* Space between search bar and dropdown */
+    width: 300px; /* Match the width of the search bar */
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: #4b3d3d; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0; /* Change background on hover */
+}

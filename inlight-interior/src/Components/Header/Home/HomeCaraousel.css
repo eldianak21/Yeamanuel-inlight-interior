@@ -1,0 +1,11 @@
+.carousel-container {
+    max-width: 800px; /* Adjust as needed */
+    margin: auto; /* Center the carousel */
+}
+
+.carousel-container img {
+    width: 100%; /* Make the image responsive */
+    height: 400px; /* Set a fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
