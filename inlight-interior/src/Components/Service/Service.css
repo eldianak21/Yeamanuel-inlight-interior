@@ -1,0 +1,82 @@
+.service-page {
+    background-color: #4b3d3d; /* Brown background for the entire service page */
+    padding: 20px;
+    color: white; /* Default text color for the page */
+}
+
+.hero-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    color: white; /* White text for the title */
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: white; /* White text for the description */
+}
+
+.services {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.service-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: calc(33% - 40px); /* Three cards in a row */
+    background-color: #6c5d5d; /* Darker brown background for cards */
+    color: white; /* White text for card content */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for animation */
+}
+
+.service-card h3 {
+    color: white; /* White text for card headers */
+}
+
+.service-card p {
+    color: white; /* White text for card paragraphs */
+}
+
+.service-card:hover {
+    transform: translateY(-10px); /* Move up on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.testimonials {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.testimonials h2 {
+    color: white; /* White color for testimonials header */
+}
+
+.testimonials p {
+    color: white; /* Ensure testimonials paragraph text is white */
+}
+
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta-button {
+    background-color: white; /* White button background */
+    color: #4b3d3d; /* Brown text for button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #6c5d5d; /* Darker shade on hover */
+}
