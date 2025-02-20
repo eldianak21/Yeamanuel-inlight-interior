@@ -8,6 +8,7 @@ import Contact from './Components/Contact/Contact';
 import SignUp from './Components/Authentication/SignUp';
 import ForgotPassword from './Components/Authentication/ForgetPassword';
 import Login from './Components/Authentication/Login';
+import Footer from './Components/Footer/Footer';
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/forgot-password" element={<ForgotPassword/>} />
          
       </Routes>
+      <Footer/>
   </Router>
     );
 };
