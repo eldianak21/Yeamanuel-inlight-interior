@@ -29,7 +29,7 @@ const About = () => {
                 <div className="team-member">
                     <h3>Robel Tesfaye</h3>
                     <p>Architect</p>
-                    <p>=251970459970</p>
+                    <p>+251970459970</p>
                     <p>
         <strong>Email:</strong> 
         <a href="mailto:tesfayerobel134@gmail.com" style={{ color: '#4b3d3d', textDecoration: 'none' }}>
