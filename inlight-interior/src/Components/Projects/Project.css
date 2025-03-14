@@ -1,0 +1,39 @@
+.project-page {
+    background-color: #4b3d3d; /* Match the service page background */
+    padding: 20px;
+    color: white; /* Default text color for the page */
+}
+
+.project-content {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.project-content h2 {
+    font-size: 28px;
+    color: white; /* White text for project headers */
+}
+
+.project-content p {
+    font-size: 18px;
+    color: white; /* White text for project paragraphs */
+}
+
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta-button {
+    background-color: white; /* White button background */
+    color: #4b3d3d; /* Brown text for button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #6c5d5d; /* Darker shade on hover */
+}

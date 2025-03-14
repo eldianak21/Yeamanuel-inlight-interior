@@ -9,6 +9,7 @@ import SignUp from './Components/Authentication/SignUp';
 import ForgotPassword from './Components/Authentication/ForgetPassword';
 import Login from './Components/Authentication/Login';
 import Footer from './Components/Footer/Footer';
+import Project from './Components/Projects/Project';
 
 
 const App = () => {
@@ -23,7 +24,7 @@ const App = () => {
           <Route path="/signup" element={<SignUp/>} />
           <Route path="/Login" element={<Login/>} />
           <Route path="/forgot-password" element={<ForgotPassword/>} />
-         
+          <Route path="/project" element={<Project/>} />
       </Routes>
       <Footer/>
   </Router>

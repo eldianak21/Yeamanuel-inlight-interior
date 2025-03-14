@@ -62,12 +62,12 @@ const Contact = () => {
                     <button type="submit">Send Message</button>
                 </form>
             </section>
-            <section className="contact-info">
+            {/* <section className="contact-info">
                 <h2>Our Contact Information</h2>
                 <p><strong>Address:</strong> Ayat, Addis Ababa, Ethiopia</p>
                 <p><strong>Phone:</strong> +251911697019</p>
                 <p><strong>Email:</strong> yeamanuel128th@gmail.com</p>
-            </section>
+            </section> */}
         </div>
     );
 };
