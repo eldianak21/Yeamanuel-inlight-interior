@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+impo
 import './Service.css';
 
 const Service = () => {
@@ -11,18 +12,18 @@ const Service = () => {
             </section>
             <section className="services">
                 <h2>What We Offer</h2>
-                <div className="service-card" id="residential-design">
+                <Link to="../" className="service-card" id="residential-design">
                     <h3>Residential Design</h3>
                     <p>Creating beautiful and functional living spaces for your home.</p>
-                </div>
-                <div className="service-card" id="commercial-design">
+                </Link>
+                <Link to="/project/commercial" className="service-card" id="commercial-design">
                     <h3>Commercial Design</h3>
                     <p>Designing inspiring workspaces that enhance productivity.</p>
-                </div>
-                <div className="service-card" id="consultation">
+                </Link>
+                <Link to="/project/consultation" className="service-card" id="consultation">
                     <h3>Consultation Services</h3>
                     <p>Personalized advice to help you achieve your design goals.</p>
-                </div>
+                </Link>
             </section>
             <section className="testimonials">
                 <h2>What Our Clients Say</h2>

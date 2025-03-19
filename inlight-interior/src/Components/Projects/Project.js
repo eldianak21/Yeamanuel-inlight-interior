@@ -3,6 +3,17 @@ import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './Project.css';
 
+// Import images for each category
+import residentialImage1 from '../../assets/residential2.jpg';
+import residentialImage2 from '../../assets/residential4.jpg';
+import residentialImage3 from '../../assets/commercial3.jpg';
+import commercialImage1 from '../../assets/commercial.jpg';
+import commercialImage2 from '../../assets/commercial2.jpg';
+import commercialImage3 from '../../assets/commercial3.jpg';
+import consultationImage1 from '../../assets/consultancy.jpg';
+import consultationImage2 from '../../assets/Consultancy2.jpg';
+import consultationImage3 from '../../assets/consultancy3.jpg';
+
 const Project = () => {
     const { type } = useParams();
 
@@ -10,30 +21,66 @@ const Project = () => {
         switch (type) {
             case 'residential':
                 return (
-                    <div>
+                    <div className="project-section">
                         <h2>Residential Design Projects</h2>
-                        <p>Explore our stunning residential design projects that transform homes into dream spaces.</p>
-                        {/* More specific content can go here */}
+                        <div className="image-container">
+                            <img src={residentialImage1} alt="Residential 1" />
+                            <img src={residentialImage2} alt="Residential 2" />
+                            <img src={residentialImage3} alt="Residential 3" />
+                        </div>
                     </div>
                 );
             case 'commercial':
                 return (
-                    <div>
+                    <div className="project-section">
                         <h2>Commercial Design Projects</h2>
-                        <p>Discover how our commercial designs enhance productivity and create inspiring work environments.</p>
-                        {/* More specific content can go here */}
+                        <div className="image-container">
+                            <img src={commercialImage1} alt="Commercial 1" />
+                            <img src={commercialImage2} alt="Commercial 2" />
+                            <img src={commercialImage3} alt="Commercial 3" />
+                        </div>
                     </div>
                 );
             case 'consultation':
                 return (
-                    <div>
+                    <div className="project-section">
                         <h2>Consultation Services</h2>
-                        <p>Learn about our personalized consultation services that help you achieve your design goals.</p>
-                        {/* More specific content can go here */}
+                        <div className="image-container">
+                            <img src={consultationImage1} alt="Consultation 1" />
+                            <img src={consultationImage2} alt="Consultation 2" />
+                            <img src={consultationImage3} alt="Consultation 3" />
+                        </div>
                     </div>
                 );
             default:
-                return <h2>Project Not Found</h2>;
+                return (
+                    <>
+                        <div className="project-section">
+                            <h2>Residential Design Projects</h2>
+                            <div className="image-container">
+                                <img src={residentialImage1} alt="Residential 1" />
+                                <img src={residentialImage2} alt="Residential 2" />
+                                <img src={residentialImage3} alt="Residential 3" />
+                            </div>
+                        </div>
+                        <div className="project-section">
+                            <h2>Commercial Design Projects</h2>
+                            <div className="image-container">
+                                <img src={commercialImage1} alt="Commercial 1" />
+                                <img src={commercialImage2} alt="Commercial 2" />
+                                <img src={commercialImage3} alt="Commercial 3" />
+                            </div>
+                        </div>
+                        <div className="project-section">
+                            <h2>Consultation Services</h2>
+                            <div className="image-container">
+                                <img src={consultationImage1} alt="Consultation 1" />
+                                <img src={consultationImage2} alt="Consultation 2" />
+                                <img src={consultationImage3} alt="Consultation 3" />
+                            </div>
+                        </div>
+                    </>
+                );
         }
     };
 

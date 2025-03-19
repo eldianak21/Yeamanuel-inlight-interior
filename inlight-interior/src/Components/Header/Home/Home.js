@@ -34,8 +34,8 @@ const HomePage = () => {
                         <button className="buy-button">View Details</button>
                     </div>
                     <div className="design-card">
-                        <h3>Chic Bedroom</h3>
-                        <p>Contemporary | 400 sq ft</p>
+                        <h3>Bedroom</h3>
+                        <p>Contemporary</p>
                         <button className="buy-button">View Details</button>
                     </div>
                 </section>
